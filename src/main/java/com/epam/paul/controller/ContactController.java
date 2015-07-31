@@ -32,8 +32,10 @@ public class ContactController {
 		Contact contact = new Contact();
 		
 		model.addAttribute("contact", contact);
+                int x = 1;
+                int y = 100500;
 		
-		return "add-contact";
+		return "add-super-contact";
 	}
 	
 	
