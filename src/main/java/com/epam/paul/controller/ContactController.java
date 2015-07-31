@@ -53,7 +53,7 @@ public class ContactController {
 		//Preventing the same bean re-appearing in the form
 		model.addAttribute("contact", new Contact());
 		
-		return "add-contact";
+		return "add-contact";{}
 	}
 	
 	@RequestMapping(value="view-contacts", method = RequestMethod.GET)
